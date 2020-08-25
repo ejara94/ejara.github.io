@@ -34,7 +34,7 @@ console.log(printNumTwo());
 ```
 Como dice el código sacado _textual_ del curso, la llamada a la función `printNumTwo()` retorna 3. Declarar variables con `var` les da acceso global, o en la función donde se declaran; en su _scope_. Esto es ambiguo para algunas expresiones, como el valor inicial de la variable de iteración del `for`. En estos casos en que se declaran variables en las condiciones del `for`, la variable `i` se modifica globalmente, en este caso, hasta 3 y ese es su valor terminado el ciclo `for`, asi mismo, cuando se accede a ella en la llamada a `printNumTwo`. Y esto independiente de que la definición de la función `printNumTwo` haya sido en `i===2` ! 
 
-Perooo, con el buen `let`:
+Perooo, ojo!, `let` también es de acceso global, pero podriamos declarar otra `i` en otro scope con el buen `let` sin interferir en la definición anterior. Así, el código de arriba ahora se porta bien:
 ```
 'use strict';
 let printNumTwo;
@@ -53,4 +53,29 @@ console.log(i);
 
 **\#dato:** `'use strict;'` activa el [Modo Estricto](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Modo_estricto) 
 
-Bueno... por qué declararías una función dentro de un for? Podríamos querer distintas declaraciones de una misma función según algún valor, una promesa, who knows.
+Bueno... por qué declararías una función dentro de un for? Podríamos querer distintas declaraciones de una misma función según alguna promesa, una condición, who knows.
+
+### La #@$&%@ función flecha
+
+Behold:
+```
+const myFunc = function() {
+  const myVar = "value";
+  return myVar;
+}
+
+```
+Equivale a:
+```
+const myFunc = () => {
+  const myVar = "value";
+  return myVar;
+}
+
+```
+Y esto a:
+```
+const myFunc = () => "value";
+
+```
+_Misterio resuelto!_
