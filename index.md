@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-[JavaScript Tips](https://github.com/ejara94/page/blob/gh-pages/js.md)
+[JavaScript Tips](js.md)
 
 You can use the [editor on GitHub](https://github.com/ejara94/ejara.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
