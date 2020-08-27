@@ -1,6 +1,7 @@
 ## Holi
 
 [JavaScript Tips](js.md)
+
 [Python Tips](python.md)
 
 You can use the [editor on GitHub](https://github.com/ejara94/ejara.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
