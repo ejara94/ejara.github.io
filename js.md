@@ -79,3 +79,11 @@ const myFunc = () => "value";
 
 ```
 _Misterio resuelto!_
+
+### "...": Spread Operator and algo Arguments
+
+Es una wea... sjadqksj
+
+### Deconstructing Assignment
+
+la wea de los const {hola, pico} = user
