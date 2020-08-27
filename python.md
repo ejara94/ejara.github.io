@@ -1,4 +1,5 @@
-#Python
+
+# Python
 
 Truquillos y demases aprendidos del programa especializado "Python for Everybody" y la certificación "Google Automation with Python", ambos de Coursera:
 
@@ -6,11 +7,11 @@ Truquillos y demases aprendidos del programa especializado "Python for Everybody
 
 [Google IT Automation with Python](https://www.coursera.org/professional-certificates/google-it-automation)
 
-##Useful idiomatics
+## Useful idiomatics
 
-###Shortest simple histogram
+### Shortest simple histogram
 
-###"json" Library
+### "json" Library
 
-###One line text file search
+### One line text file search
 
