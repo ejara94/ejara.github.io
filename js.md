@@ -55,6 +55,10 @@ console.log(i);
 
 Bueno... por qué declararías una función dentro de un for? Podríamos querer distintas declaraciones de una misma función según alguna promesa, una condición, who knows.
 
+## Sintaxis marciana 
+
+Esa respuesta de stackoverflow que te dejó pensando: "que weaaa...?". Bueno, si estaba escrito con algo de aquí, habemus respuestas.
+
 ### La #@$&%@ función flecha
 
 Behold:
