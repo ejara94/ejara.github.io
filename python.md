@@ -15,6 +15,10 @@ Truquillos y demases aprendidos del programa especializado "Python for Everybody
 
 ### One line text file search
 
+### .format() Cheat Sheet
+
+[Cheat Sheet](format.png)
+
 ## Script-azos
 
 ### El clásico buscador de factores primos
