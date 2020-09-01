@@ -1,4 +1,4 @@
-## Holi
+## Holi teni pololi
 
 [JavaScript Tips](js.md)
 
