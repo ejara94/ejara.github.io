@@ -75,5 +75,5 @@ def replace_ending(sentence, old, new):
 print(replace_ending("It's raining cats and cats", "cats", "dogs")) 
 # Should display "It's rainikang cats and dogs"
 
-```
+```reclamalo
 
